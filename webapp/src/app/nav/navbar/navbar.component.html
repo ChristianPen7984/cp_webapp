@@ -1,0 +1,25 @@
+<nav class="navbar navbar-dark navbar-expand-sm justify-content-center">
+  <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse" id="collapsingNavbar2">
+    <ul class="navbar-nav mx-auto text-center">
+      <li class="nav-item">
+        <a class="nav-link pointer" 
+        routerLink="/home" 
+        [ngClass]="{'active-route': activeRoute() == 0}">Home</a>
+      </li>
+      <li class="nav-item pointer">
+        <a class="nav-link" 
+        routerLink="/projects"
+        [ngClass]="{'active-route': activeRoute() == 1}">Projects</a>
+      </li>
+      <li class="nav-item pointer">
+        <a class="nav-link" 
+        routerLink="/experience" 
+        [ngClass]="{'active-route': activeRoute() == 2}"
+        style="margin-right:0px">Experience</a>
+      </li>
+    </ul>
+  </div>
+</nav>
