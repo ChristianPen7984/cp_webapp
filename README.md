@@ -1,2 +1,1 @@
-# cp_webapp
-# Client for Christian's About Me
+# Client for Christian's About Me Website
