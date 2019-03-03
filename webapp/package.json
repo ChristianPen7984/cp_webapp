@@ -11,6 +11,7 @@
   },
   "private": true,
   "dependencies": {
+    "webpack-dev-server": ">=3.1.11",
     "@angular/animations": "~7.1.0",
     "@angular/common": "~7.1.0",
     "@angular/compiler": "~7.1.0",
