@@ -1,10 +1,25 @@
+nav {
+    box-shadow: none !important;
+}
+
 .nav-link {
     font-size: 24px;
-    padding: 10px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
     margin-right: 80px;
 }
 
-@media (max-width: 900px) {
+button {
+    outline: none;
+}
+
+.active-route {
+    animation: backwards;
+    color: white !important;
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
     .nav-link {
         font-size: 20px;
     }
@@ -20,18 +35,13 @@
         margin-right: 0px;
         text-align: left !important;
         font-size: 18px;
-        color: rgba(255,255,255,.5) !important;
+        color: rgba(255, 255, 255, .5) !important;
     }
     button {
         background-color: #908c89;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-}
-
-button {
-    outline: none;
-}
-
-.active-route {
-    color: white !important;
+    .active-route {
+        text-decoration: none;
+    }
 }
