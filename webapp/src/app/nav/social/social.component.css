@@ -1,5 +1,6 @@
 .container-fluid {
     transform: translate(0%, 50%);
+    position: fixed;
 }
 
 .fa {
@@ -20,6 +21,7 @@
         transform: translate(0%,-20%) !important;
         width: 100% !important;
         text-align: center;
+        position: relative;
     }
     .fa {
         font-size: 20px;

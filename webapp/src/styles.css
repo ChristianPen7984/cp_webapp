@@ -1,6 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css";
 
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
 body {
     background-image: url("../assests/background.jpeg");
 }
