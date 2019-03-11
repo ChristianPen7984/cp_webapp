@@ -2,12 +2,12 @@
 @import "~font-awesome/css/font-awesome.css";
 
 html, body {
-    height: 100%;
-    margin: 0px;
+    scroll-behavior: smooth;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
-    background-image: url("../assests/background.jpeg");
+    background-image: url("assets/background.jpeg");
 }
 
 .cream_background { background-color: #f2f2f2; }

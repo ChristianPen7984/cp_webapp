@@ -7,7 +7,6 @@ import { NavbarComponent } from './nav/navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExperienceComponent } from './experience/experience.component';
-import { SocialComponent } from './nav/social/social.component';
 
 @NgModule({
   declarations: [
@@ -15,8 +14,7 @@ import { SocialComponent } from './nav/social/social.component';
     NavbarComponent,
     HomeComponent,
     ProjectsComponent,
-    ExperienceComponent,
-    SocialComponent
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,

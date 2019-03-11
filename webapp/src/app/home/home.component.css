@@ -1,0 +1,164 @@
+.section1 {
+    height: 95vh
+}
+
+.section1_1 {
+    height: 95vh;
+    /* background-color: orchid */
+}
+
+.section1_2 {
+    max-height: 95vh;
+    /* background-color: palegreen */
+}
+
+.social-container {
+    /* background-color: burlywood; */
+    transform: translate(0%, 50%);
+    height: 50%;
+    width: 50%;
+}
+
+.nav {
+    /* background-color: cadetblue; */
+    transform: translate(0%, 20%);
+    height: 80%;
+}
+
+.nav>a {
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.fa-reddit {
+    margin-bottom: 0px !important;
+}
+
+.section2 {
+    width: 98%;
+    background-color: rgb(27, 27, 27);
+    border: solid 1px #272727;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.section2 > .row {
+    width: 85%;
+    margin: 0 auto;
+    margin: 30px;
+}
+
+.about-me-wrapper > p {
+    color: #FFFFFF;
+    margin: 50px;
+    word-wrap: break-word;
+    text-indent: 2em;
+    font-size: 20px;
+    max-width: 80%;
+    line-height: 35px;
+}
+
+.me-img-wrapper > div > div > h4 {
+    color: #FFFFFF
+}
+
+.me-img-wrapper > div > div > img {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 1250px) {
+    .about-me-wrapper > p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .me-img-wrapper {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .me-img-wrapper {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 991px) {
+    .section2 {
+        width: 100%;
+        border-radius: 0px;
+    }
+    .section2 > .row {
+        width: 100%;
+        margin:  0 auto;
+    }
+    .me-img-wrapper {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .about-me-wrapper > p {
+        margin: 50px 0px 50px 0px;
+        max-width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-md-1 {
+        height: 10vh !important;
+    }
+    .social-container {
+        display: inline;
+    }
+    .nav {
+        flex-flow: row !important;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .nav>a {
+        margin-right: 30px;
+    }
+    .fa-reddit {
+        margin-right: 0px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .me-img-wrapper {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .about-me-wrapper > p {
+        margin: 50px 0px 50px 0px;
+        max-width: 100% !important;
+        text-align: center;
+        font-size: 15px;
+    }
+    .about-me-wrapper > h4 {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-height: 600px) {
+    .social-container {
+        transform: translate(0%, 20%);
+    }
+    .nav {
+        height: 100% !important;
+    }
+    .nav>a {
+        font-size: 25px;
+    }
+}
+
+@media (max-height: 400px) {
+    .social-container {
+        display: inline;
+        font-size: 20px;
+    }
+    .nav {
+        transform: translate(0%, 0%);
+    }
+}
